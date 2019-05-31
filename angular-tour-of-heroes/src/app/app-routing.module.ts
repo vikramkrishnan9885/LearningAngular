@@ -8,15 +8,19 @@ import { HeroesComponent }      from './heroes/heroes.component';
 // Import the HeroesComponent so you can reference it in a Route. 
 // Then define an array of routes with a single route to that component.
 
+import { DashboardComponent }   from './dashboard/dashboard.component';
 
 
 const routes: Routes = [
-  { path: 'heroes', component: HeroesComponent }
+  { path: 'heroes', component: HeroesComponent },
   // A typical Angular Route has two properties:
   // path: a string that matches the URL in the browser address bar.
   // component: the component that the router should create when navigating 
   // to this route
 
+  { path: 'dashboard', component: DashboardComponent },
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' }
+  // Add a default route
 ];
 
 @NgModule({
