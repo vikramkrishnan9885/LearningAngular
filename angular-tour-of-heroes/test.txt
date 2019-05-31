@@ -1,0 +1,1992 @@
+    1  cd ~/Desktop/
+    2  python test.py 
+    3  python3 test.py 
+    4  sudo apt-get install openjdk8
+    5  sudo apt-get install openjdk-8
+    6  sudo apt find openjdk
+    7  sudo apt search oracle-java
+    8  sudo apt install openjdk-8-jdk
+    9  sudo apt-get install sbt
+   10  sudo apt-get install scala
+   11  echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+   12  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
+   13  sudo apt-get update
+   14  sudo apt-get install sbt
+   15  vi ~/.profile
+   16  gedit ~/.profile
+   17  gedit ~/.bashrc
+   18  curl -s "https://get.sdkman.io" | sudo bash 
+   19  sudo apt-get install curl
+   20  curl -s "https://get.sdkman.io" | sudo bash 
+   21  sdk install gradle 4.10.2
+   22  sudo  source "/home/vikram/.sdkman/bin/sdkman-init.sh"
+   23  cd ~
+   24  pwd
+   25  cd .sdkman/
+   26  ls
+   27  cd bin/
+   28  ls
+   29  source sdkman-init.sh 
+   30  cd ~
+   31  export SDKMAN_DIR="/usr/local/sdkman" && curl -s "https://get.sdkman.io" | bash
+   32  sudo mkdir /usr/local/sdkman
+   33  sudo su
+   34  gedit ~/.bashrc
+   35  sudo  source "/home/vikram/.sdkman/bin/sdkman-init.sh"
+   36  source "/home/vikram/.sdkman/bin/sdkman-init.sh"
+   37  source "/usr/local/sdkman/bin/sdkman-init.sh"
+   38  gedit .bashrc
+   39  source "/home/vikram/.sdkman/bin/sdkman-init.sh"
+   40  cd /usr/local/sdkman
+   41  ls
+   42  curl -s "https://get.sdkman.io" | bash
+   43  sdk selfupdate force
+   44  cd ..
+   45  rm -rf sdkman/
+   46  sudo rm -rf sdkman/
+   47  cd ~
+   48  ls
+   49  ls -a
+   50  rm -rf .sdkman/
+   51  sudo rm -rf .sdkman/
+   52  ls
+   53  ls -a
+   54  gedit .bashrc
+   55  curl -s "https://get.sdkman.io" | bash
+   56  echo $SDKMAN_DIR
+   57  ls
+   58  unset SDKMAN_DIR
+   59  curl -s "https://get.sdkman.io" | bash
+   60  source "/home/vikram/.sdkman/bin/sdkman-init.sh"
+   61  sdk help
+   62  sdk install gradle 4.10.2
+   63  exit
+   64  sbt run
+   65  sudo -H gedit /etc/systemd/logind.conf
+   66  sudo -H gedit /etc/UPower/UPower.conf 
+   67  sudo service systemd-logind restart
+   68  sudo -H gedit /etc/UPower/UPower.conf 
+   69  sudo service systemd-logind restart
+   70  sudo -H gedit /etc/systemd/logind.conf
+   71  sudo service systemd-logind restart
+   72  sudo pm-hibernate
+   73  sudo apt-get install pm-hibernate
+   74  sudo -H gedit /etc/systemd/logind.conf
+   75  sudo service systemd-logind restart
+   76  sudo -H gedit /etc/systemd/logind.conf
+   77  sudo service systemd-logind restart
+   78  sudo apt-get -y install ipython ipython-notebook
+   79  sudo apt-get install python-pip python-dev
+   80  sudo apt-get -y install ipython ipython-notebook
+   81  sudo apt-get -y install ipython
+   82  sudo -H pip install jupyter
+   83  sudo python3 -m pip install jupyter
+   84  sudo pip3 install jupyter
+   85  python3 -m pip install --upgrade pip
+   86  jupyter notebook
+   87  sudo apt install gdebi-core
+   88  # Install R + RStudio on Ubuntu 16.04
+   89  sudo apt-key adv –keyserver keyserver.ubuntu.com –recv-keys E084DAB9
+   90  # Ubuntu 12.04: precise
+   91  # Ubuntu 14.04: trusty
+   92  # Ubuntu 16.04: xenial
+   93  # Basic format of next line deb https://<my.favorite.cran.mirror>/bin/linux/ubuntu <enter your ubuntu version>/
+   94  sudo add-apt-repository 'deb https://ftp.ussg.iu.edu/CRAN/bin/linux/ubuntu xenial/'
+   95  sudo apt-get update
+   96  sudo apt-get install r-base
+   97  sudo apt-get install r-base-dev
+   98  wget https://download1.rstudio.org/rstudio-1.0.44-amd64.deb
+   99  sudo gdebi rstudio-1.0.44-amd64.deb
+  100  sudo apt-get install libgstreamer
+  101  exit
+  102  sudo apt-get install pip pip3
+  103  sudo apt install python3-pip
+  104  sudo pip3 install jupyter
+  105  jupyter notebook
+  106  exit
+  107  PS1='PEXPE\[\]CT_PROMPT>' PS2='PEXPE\[\]CT_PROMPT_' PROMPT_COMMAND=''
+  108  export PAGER=cat
+  109  sudo pip3 install spylon-kernel
+  110  sudo python3 -m spylon_kernel install
+  111  ipython notebook
+  112  exit
+  113  R
+  114  scala
+  115  python
+  116  scala
+  117  sudo apt-get install scala
+  118  scala
+  119  sudo apt-get remove scala-library scala
+  120  sudo wget www.scala-lang.org/files/archive/scala-2.11.12.deb
+  121  sudo dpkg -i scala-2.11.12.deb
+  122  scala
+  123  gedit ~/.bashrc
+  124  scala
+  125  source ~/.bashrc
+  126  scala
+  127  sudo apt-get install git
+  128  sudo  pip install pyspark
+  129  cd ~/Downloads/
+  130  ls
+  131  mv spark-2.3.2-bin-hadoop2.7.tgz spark.tgz
+  132  tar xvf spark.tgz 
+  133  mv spark/ ~/spark/
+  134  ls
+  135  rm -rf spark-2.3.2-bin-hadoop2.7/
+  136  mv spark.tgz ~/
+  137  cd ~
+  138  ls
+  139  tar xvf spark.tgz 
+  140  ls
+  141  mv spark-2.3.2-bin-hadoop2.7/ spark/
+  142  ls
+  143  rm spark.tgz 
+  144  vi ~/.bashrc
+  145  vi ~/.bash_aliases
+  146  gedit ~/.bash_aliases 
+  147  pwd
+  148  ss
+  149  alias
+  150  gedit ~/.bash_aliases 
+  151  sps
+  152  source ~/.bash_aliases
+  153  source ~/.bashrc
+  154  sps
+  155  cd /home/vikram/spark/bin
+  156  ls
+  157  ./spark-shell 
+  158  cd ..
+  159  ./bin/spark-shell 
+  160  cd ..
+  161  ./spark/bin/spark-shell 
+  162  pwd
+  163  .//home/vikram
+  164  ./home/vikram/spark/bin/spark-shell
+  165  ls
+  166  ./spark/bin/spark-shell 
+  167  echo $SPARK_HOME
+  168  /home/vikram/spark/bin/spark-shell
+  169  gedit ~/.bash_aliases 
+  170  source ~/.bash_aliases
+  171  source ~/.bashrc
+  172  sps
+  173  exit
+  174  cd /var/log/syslog
+  175  cd /var/log/
+  176  gedit syslog
+  177  gsettings set org.gnome.settings-daemon.plugins.power 'use-time-for-policy' 'false'
+  178  history
+  179  sudo -H gedit /etc/systemd/logind.conf
+  180  dconf-editor
+  181  sudo apt install dconf-editor
+  182  dconf-editor
+  183  sudo apt install gconf-editor
+  184  gconf-editor
+  185  exit
+  186  sudo apt-get install xscreensaver
+  187  xscreensaver-demo 
+  188  sudo apt install ttf-mscorefonts-installer
+  189  sudo fc-cache -f -v
+  190  exit
+  191  cd ~/Documents/
+  192  mkdir learning-scalaz
+  193  cd learning-scalaz/
+  194  vi build.sbt
+  195  gedit build.sbt
+  196  sbt console
+  197  cd ~/Documents/learning-scalaz/
+  198  sbt console
+  199  exit
+  200  cd ~/Documents/learning-scalaz/
+  201  sbt console
+  202  exit
+  203  cd ~/Documents/learning-scalaz/
+  204  sbt console
+  205  cd ~/Documents/learning-scalaz/
+  206  sbt console
+  207  exit
+  208  cd ~/Documents/learning-scalaz/
+  209  sbt console
+  210  exit
+  211  cd ~/Documents/
+  212  mkdir learning-cats
+  213  cd learning-cats/
+  214  sbt console
+  215  gedit build.sbt 
+  216  sbt console
+  217  gedit build.sbt 
+  218  sbt console
+  219  gedit build.sbt 
+  220  sbt console
+  221  exit
+  222  mvn package
+  223  sudo apt-get install maven
+  224  mvn package
+  225  sh target/bin/webapp
+  226  mvn package
+  227  sh target/bin/webapp
+  228  mvn package
+  229  sh target/bin/webapp
+  230  mvn package
+  231  sh target/bin/webapp
+  232  mvn package
+  233  sh target/bin/webapp
+  234  mvn package
+  235  sh target/bin/webapp
+  236  mvn package
+  237  sh target/bin/webapp
+  238  mvn package
+  239  sh target/bin/webapp
+  240  mvn package
+  241  sh target/bin/webapp
+  242  mvn package
+  243  sh target/bin/webapp
+  244  mvn package
+  245  sh target/bin/webapp
+  246  mvn package
+  247  sh target/bin/webapp
+  248  mvn package
+  249  sh target/bin/webapp
+  250  mvn package
+  251  sh target/bin/webapp
+  252  mvn package
+  253  sh target/bin/webapp
+  254  mvn package
+  255  sh target/bin/webapp
+  256  mvn package
+  257  sh target/bin/webapp
+  258  mvn package
+  259  sh target/bin/webapp
+  260  curl http://localhost:8080/hello?id=2
+  261  sudo apt-get install sqlite3 libsqlite3-dev
+  262  cd ~/IdeaProjects/
+  263  ls
+  264  cd BasicApp/
+  265  sqlite test.db
+  266  sqlite3 test.db
+  267  exit
+  268  sudo apt-get install openjfx
+  269  exit
+  270  sudo apt-get install openjfx-8
+  271  sudo apt-get install openjfx8
+  272  exit
+  273  jconsole
+  274  exit
+  275  cd ~/Downloads/gwt-2.8.2/
+  276  ls
+  277  chmod u+x webAppCreator
+  278  ls
+  279  pwd
+  280  exit
+  281  sbt
+  282  sbt console
+  283  cd ~/Desktop/
+  284  scalac scala-swing.scala 
+  285  mkdir scala-swing
+  286  cd scala-swing
+  287  mkdir src
+  288  cd src/
+  289  mkdir main
+  290  cd main/
+  291  mkdir scala
+  292  cd  scala
+  293  cd ../../../..
+  294  ls
+  295  mv scala-swing.scala scala-swing/src/main/scala/
+  296  cd scala-swing/
+  297  sbt compile
+  298  sbt run
+  299  exit
+  300  cd ~/Desktop/scala-swing/
+  301  sbt compile
+  302  sbt run
+  303  ps -A
+  304  ps -A | grep 'Intelli'
+  305  ps -A | grep 'IDEA'
+  306  ps -A
+  307  kill $(ps aux | grep 'java' | awk '{print $2}')
+  308  cd ~/Desktop/scala-swing/
+  309  sbt run
+  310  cd ~/Desktop/scala-swing/
+  311  sbt compile
+  312  sbt run
+  313  sbt compile
+  314  sbt run
+  315  sbt compile
+  316  sbt run
+  317  sbt compile
+  318  sbt run
+  319  sbt compile
+  320  sbt run
+  321  sbt compile
+  322  sbt run
+  323  sbt compile
+  324  sbt run
+  325  sbt compile
+  326  sbt run
+  327  sbt compile
+  328  sbt run
+  329  sbt compile
+  330  sbt run
+  331  sbt compile
+  332  sbt run
+  333  sbt compile
+  334  sbt run
+  335  sbt compile
+  336  sbt run
+  337  sbt compile
+  338  sbt run
+  339  sbt compile
+  340  sbt run
+  341  sbt compile
+  342  sbt run
+  343  sbt compile
+  344  sbt run
+  345  sbt compile
+  346  sbt run
+  347  sbt compile
+  348  sbt run
+  349  sbt compile
+  350  sbt run
+  351  sbt compile
+  352  sbt run
+  353  sbt compile
+  354  sbt run
+  355  sbt compile
+  356  sbt run
+  357  sbt compile
+  358  sbt run
+  359  sbt compile
+  360  sbt run
+  361  sbt compile
+  362  sbt run
+  363  sbt compile
+  364  sbt run
+  365  sbt compile
+  366  sbt run
+  367  sbt compile
+  368  sbt run
+  369  sbt compile
+  370  sbt run
+  371  sbt compile
+  372  sbt run
+  373  sbt compile
+  374  sbt run
+  375  sbt compile
+  376  sbt run
+  377  sbt compile
+  378  sbt run
+  379  sbt compile
+  380  sbt run
+  381  sbt compile
+  382  sbt run
+  383  sbt compile
+  384  sbt run
+  385  sbt compile
+  386  sbt run
+  387  sbt compile
+  388  sbt run
+  389  sbt compile
+  390  sbt run
+  391  sbt compile
+  392  sbt run
+  393  sbt compile
+  394  sbt run
+  395  sbt compile
+  396  sbt run
+  397  sbt compile
+  398  sbt run
+  399  sbt compile
+  400  sbt run
+  401  sbt compile
+  402  sbt run
+  403  sbt compile
+  404  sbt run
+  405  sbt compile
+  406  sbt run
+  407  sbt compile
+  408  sbt run
+  409  exit
+  410  cd Desktop/scala-swing/
+  411  sbt compile
+  412  sbt run
+  413  sbt compile
+  414  sbt run
+  415  sbt compile
+  416  sbt run
+  417  sbt compile
+  418  sbt run
+  419  exit
+  420  cd Desktop/scala-swing/
+  421  sbt compile
+  422  sbt run
+  423  exit
+  424  cd ~/Desktop/scala-swing/
+  425  sbt run
+  426  sbt run
+  427  exit
+  428  cd ~/Desktop/scala-swing/
+  429  sbt run
+  430  cd ~/Desktop/scala-swing/
+  431  sbt run
+  432  cd ~/Desktop/scala-swing/
+  433  sbt run
+  434  exit
+  435  cd ~/Desktop/scala-swing/
+  436  sbt run
+  437  exit
+  438  cd ~/Desktop/scala-swing/
+  439  sbt run
+  440  exit
+  441  cd ~/Documents/
+  442  mkdir scala-cats
+  443  cd scala-cats/
+  444  sbt new typelevel/sbt-catalysts.g8
+  445  exit
+  446  cd ~/Desktop/scala-swing/
+  447  sbt run
+  448  exit
+  449  cd ~/Desktop/
+  450  mkdir groff-test
+  451  cd groff-test/
+  452  groff -mm -Tps -1 letter.mm
+  453  groff -mm -Tps -l letter.mm
+  454  troff -mm -Tps -l letter.mm
+  455  sudo apt-get install groff
+  456  sudo apt-get install groff-base
+  457  troff -mm -Tps -l letter.mm
+  458  groff -mm -Tps -l letter.mm
+  459  vi letter.mm
+  460  gedit letter.mm
+  461  groff -mm -Tps -l letter.mm
+  462  groff -mm -Tdvi -l letter.mm
+  463  troff -mm -Tps -l letter.mm
+  464  troff -mm -l letter.mm > letter.ps
+  465  troff -mm letter.mm > letter.ps
+  466  ls
+  467  groff -mm -Tps -l letter.mm > letter.ps
+  468  groff -mm letter.mm > letter.ps
+  469  groff -mm -l letter.mm > letter.ps
+  470  gedit memoeqn.mm
+  471  groff -mm -e memoeqm.mm > eqn.ps
+  472  groff -mm -e memoeqn.mm > eqn.ps
+  473  groff -mm letter.mm > letter.ps
+  474  gnuplot
+  475  sudo apt install gnuplot-nox
+  476  sudo apt install gnuplot-qt 
+  477  sudo apt install gnuplot-x11
+  478  gnuplot
+  479  exit
+  480  history | grep 'groff'
+  481  groff -mm -e memoeqn.mm > eqn.ps 
+  482  history | grep 'groff'
+  483  cd ~/Desktop/
+  484  cd groff-test/
+  485  groff -mm -te tbl.mm > tbl.ps
+  486  groff -mm -p pic.mm > pic.ps
+  487  exit
+  488  cd ~/Desktop/groff-test/
+  489  ls
+  490  groff -me text.mm > text.ps
+  491  exit
+  492  cd ~/Desktop/groff-test/gnu_plotutils/
+  493  ls
+  494  graph -T ps datafile > plot.ps
+  495  sudo apt install plotutils
+  496  graph -T ps datafile > plot.ps
+  497  view plot.ps 
+  498  graph -T ps -m 2< datafile > plot1.ps
+  499  graph -T ps -C -m 2 < datafile > plot1.ps
+  500  graph -T ps -m 2 < datafile > plot1.ps
+  501  graph -T ps -m 2 -S 3 < datafile > plot1.ps
+  502  graph -T ps -m 2 -S 3 -h 9 -w 9 < datafile > plot1.ps
+  503  graph -T ps -m 2 -S 3 < datafile > plot1.ps
+  504  graph -T ps -m 2 -S 3 -X "X-axis" -Y "y-axis" -L "This is my label"  < datafile > plot1.ps
+  505  graph -T ps -h 9 -w 16 -m 2 -S 3 -X "X-axis" -Y "y-axis" -L "This is my label"  < datafile > plot1.ps
+  506  graph -T ps -m 2 -S 3 -X "X-axis" -Y "y-axis" -L "This is my label"  < datafile > plot1.ps
+  507  history | grep 'groff'
+  508  cd ..
+  509  groff -mm -p pspic_test.mm > ps_pic.ps
+  510  exit
+  511  sudo apt-get install libplplot
+  512  sudo apt-get install libplplotqt2
+  513  sudo apt-get install plplot
+  514  sudo apt-get install cl-plplot
+  515  sudo apt-get install libplplot-ada-dev
+  516  sudo apt-get install cl-plplot
+  517  sudo apt-get install libplplot-ada1
+  518  sudo apt-get install libplplot-ada1-dev
+  519  sudo apt-get install libplplot-dev
+  520  sudo apt-get install libplplot-fortran10
+  521  sudo apt-get install libplplot-lua
+  522  sudo apt-get install libplplot-ocaml
+  523  sudo apt-get install libplplot-ocaml-dev
+  524  sudo apt-get install libplplot15
+  525  sudo apt-get install libplplotada2
+  526  sudo apt-get install libplplotcxx13
+  527  sudo apt-get install libplplotfortran0
+  528  sudo apt-get install libplplotqt2
+  529  sudo apt-get install libplplotwxwidgets1
+  530  sudo apt-get install octave-plplot
+  531  sudo apt-get install plplot-doc
+  532  sudo apt-get install plplot-driver-cairo
+  533  sudo apt-get install plplot-driver-qt
+  534  sudo apt-get install plplot-driver-wxwidgets
+  535  sudo apt-get install plplot-driver-xwin
+  536  sudo apt-get install plplot-tcl
+  537  sudo apt-get install plplot-tcl-bin
+  538  sudo apt-get install plplot-tcl-dev
+  539  sudo apt-get install python-plplot
+  540  sudo apt-get install python-plplot-qt
+  541  sudo apt-get install python3-plplot
+  542  sudo apt-get install python3-plplot-qt
+  543  cd ~/Desktop/plplot/
+  544  ls
+  545  python plot1.py 
+  546  ls
+  547  python3 plot1.py 
+  548  exit
+  549  R
+  550  exit
+  551  cd ~/Desktop/groff-test/
+  552  ls
+  553  history | grep 'groff'
+  554  groff -me text.mm > text.html
+  555  firefox text.html 
+  556  groff -Thtml -me text.mm > text.html
+  557  firefox text.html 
+  558  groff -Thtml -e -ms text.mm > text.html
+  559  firefox text.html 
+  560  ls
+  561  groff -pet -ms -Thtml text.mm
+  562  groff -pet -ms -Thtml text.mm > text.html
+  563  firefox text.html 
+  564  view text.ps
+  565  evince text.ps 
+  566  exit
+  567  cd ~/Desktop/groff-test/
+  568  ls
+  569  groff -m mandoc -Thtml text.mm > text.html
+  570  firefox text.html 
+  571  vi text.mm
+  572  history | grep 'groff'
+  573  groff -me mandoc -Thtml text.mm > text.html
+  574  groff -me -Thtml text.mm > text.html
+  575  firefox text.html 
+  576  groff -mm -p -Thtml pic.mm > pic.html
+  577  firefox pic.html 
+  578  groff -mm -p -Thtml pic.mm > pic.html
+  579  firefox pic.html 
+  580  gs -q -sDEVICE=gifmono -sOutputFile=file1.gif -r150x150 pic.ps
+  581  gs -q -sOutputFile=file1.gif -r150x150 pic.ps
+  582  gs pic.ps
+  583  gs -q -sDEVICE=jpeg -sOutputFile=pic.jpg -r150x150 pic.ps
+  584  ls
+  585  evince pic.jpg 
+  586  rm pic.jpg 
+  587  gs -sDEVICE=jpeg -sOutputFile=pic.jpg pic.ps
+  588  gs -q -sDEVICE=jpeg -sOutputFile=pic.jpg pic.ps
+  589  ls
+  590  evince pic.jpg
+  591  gs -q -sDEVICE=gif8 -sOutputFile=pic.gif pic.ps
+  592  convert pic.ps pic.gif
+  593  gs -q -sDEVICE='ppmraw' -sOutputFile='-' -dBATCH -dNOPAUSE pic.ps | pnmcrop | ppmtogif > pic.gif
+  594  firefox pic_test.html 
+  595  sudo apt-get install xfig
+  596  xfig
+  597  gs Test.ps
+  598  sudo apt-get install texlive-full
+  599  cd ~/Desktop/groff-test/
+  600  history | grep 'groff'
+  601  groff -mm -p pic.mm > pic.ps
+  602  gedit pic.mm
+  603  groff -mm -p pic.mm > pic.ps
+  604  gedit pic.mm
+  605  groff -mm -p pic.mm > pic.ps
+  606  gedit pic.mm
+  607  groff -mm -p pic.mm > pic.ps
+  608  gs pic.ps
+  609  gedit pic.mm
+  610  groff -mm -p pic.mm > pic.ps
+  611  gs pic.ps
+  612  groff -mom -mm -p pic.mm > pic.ps
+  613  gs pic.ps
+  614  ps2epsi pic.ps piccrop.eps
+  615  gs piccrop.eps 
+  616  rm piccrop.eps 
+  617  ps2epsi pic.ps piccrop.ps
+  618  gs piccrop.ps 
+  619  rm piccrop.eps 
+  620  rm piccrop.ps 
+  621  epstool --copy -bbox pic.ps pic2.ps
+  622  epstool --copy --bbox pic.ps pic2.ps
+  623  gs                -dBATCH         -dNOPAUSE       -q              -sDEVICE=bbox    example.ps   2>&1            | tee info.txt
+  624  gs                -dBATCH         -dNOPAUSE       -q              -sDEVICE=bbox    pic.ps   2>&1            | tee info.txt
+  625  gs pic.ps
+  626  magick convert pic.ps pic.eps
+  627  sudo apt-gett install magick
+  628  magic convert pic.ps pic.eps
+  629  sudo apt-get install imagemagick
+  630  imagemagick convert pic.ps pic.eps
+  631  sudo apt-get install -y ps2eps
+  632  ps2eps -B -C < pic.ps > outfile.eps
+  633  gs outfile.eps 
+  634  gedit pic.mm
+  635  sudo apt-get install texmaker
+  636  exit
+  637  cd ~/Desktop/
+  638  pwd
+  639  exit
+  640  gedit ~/.config/user-dirs.dirs
+  641  exit
+  642  gedit ~/.config/user-dirs.dirs
+  643  source ~/.config/user-dirs.dirs
+  644  gedit /etc/sysctl.conf
+  645  sudo gedit /etc/sysctl.conf
+  646  sudo source /etc/sysctl.conf
+  647  source /etc/sysctl.conf
+  648  sudo sysctl -p
+  649  exit
+  650  python
+  651  exit
+  652  python
+  653  sudo apt-get install emacs
+  654  python
+  655  exit
+  656  python
+  657  python3
+  658  exit
+  659  python
+  660  ipython
+  661  exit
+  662  ipython
+  663  exit
+  664  ipython
+  665  exit
+  666  ipython
+  667  exit
+  668  exit
+  669  ipython
+  670  sudo pip install matplotlib
+  671  sudo pip install seaborn
+  672  exit
+  673  ipython
+  674  exit
+  675  history | grep 'pandoc'
+  676  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/palantir/scala/
+  677  ls
+  678  cd pandoc-stuff/
+  679  ls
+  680  pandoc -s File.md -o example2.html
+  681  sudo apt-get install pandoc
+  682  pandoc -s File.md -o example2.html
+  683  chromium example2.html 
+  684  pandoc -s File.md -o example2.html
+  685  chromium example2.html 
+  686  pandoc -s File.md -o example2.html
+  687  chromium example2.html 
+  688  pandoc -s File.md -o example2.html
+  689  chromium example2.html 
+  690  pandoc -s File.md -o example2.html
+  691  chromium example2.html 
+  692  pandoc -s File.md -o example2.html
+  693  chromium example2.html 
+  694  pandoc -s File.md -o example2.html
+  695  chromium example2.html 
+  696  pandoc -s File.md -o example2.html
+  697  chromium example2.html 
+  698  pandoc -s File.md -o example2.html
+  699  chromium example2.html 
+  700  pandoc -s File.md -o example2.html
+  701  chromium example2.html 
+  702  pandoc -s File.md -o example2.html
+  703  chromium example2.html 
+  704  pandoc -s File.md -o example2.html
+  705  chromium example2.html 
+  706  pandoc -s File.md -o example2.html
+  707  chromium example2.html 
+  708  pandoc -s File.md -o example2.html
+  709  chromium example2.html 
+  710  pandoc -s File.md -o example2.html
+  711  chromium example2.html 
+  712  pandoc -s File.md -o example2.html
+  713  chromium example2.html 
+  714  pandoc -s File.md -o example2.html
+  715  chromium example2.html 
+  716  pandoc -s File.md -o example2.html
+  717  chromium example2.html 
+  718  exit
+  719  python3
+  720  ipython
+  721  cd ~/Desktop/
+  722  python zaltest.py 
+  723  ipython
+  724  python zaltest.py 
+  725  ipython
+  726  python zaltest.py 
+  727  exit
+  728  scala
+  729  exit
+  730  scala
+  731  exit
+  732  exit
+  733  gcc test.c 
+  734  emacs test.c 
+  735  gcc test.c 
+  736  ./a.out 
+  737  exit
+  738  rm ~/.emacs
+  739  gedit ~/.emacs.d/init.el
+  740  exit
+  741  exit
+  742  git clone https://github.com/arpitjindal97/technology_books.git
+  743  exit
+  744  git clone https://github.com/devakar/deep-learning-books.git
+  745  exit
+  746  lein repl
+  747  exit
+  748  lein repl
+  749  exit
+  750  lein repl
+  751  git clone https://gitlab.com/credenc/data-model.git
+  752  git clone https://gitlab.com/credenc/study-abroad.git
+  753  git clone https://gitlab.com/credenc/glassdoor-scrap.git
+  754  exit
+  755  sudo apt-get install julia
+  756  ls
+  757  mv ~/Downloads/julia-1.0.3-linux-x86_64.tar.gz ~/
+  758  ls
+  759  tar xvfa julia-1.0.3-linux-x86_64.tar.gz 
+  760  ls
+  761  mv julia-1.0.3 julia
+  762  ls
+  763  echo PATH=\$PATH:~/julia/bin/ >> ~/.profile
+  764  source ~/.profile
+  765  julia
+  766  exit
+  767  git clone https://github.com/torch/distro.git ~/torch --recursive
+  768  cd ~/torch; bash install-deps;
+  769  bash install-deps;
+  770  ./install.sh
+  771  source ~/.bashrc
+  772  th
+  773  exit
+  774  torch
+  775  th
+  776  exit
+  777  th
+  778  lua
+  779  th
+  780  exit
+  781  luarocks install https://raw.githubusercontent.com/szym/display/master/display-scm-0.rockspec
+  782  luarocks install image
+  783  luarocks install qt
+  784  luarocks install qtlua
+  785  luajit -limage -e "image.test()"
+  786  luarocks install qtlua
+  787  qmake --version
+  788  sudo apt-get install -y qt4-qmake qt4-dev-tools
+  789  sudo update-alternatives --install "/usr/bin/qmake" "qmake" "/usr/bin/qmake-qt4" 40
+  790  sudo update-alternatives --config qmake
+  791  luarocks install qtlua
+  792  lua
+  793  exit
+  794  torch
+  795  th
+  796  exit
+  797  lua
+  798  git clone https://github.com/facebook/iTorch.git
+  799  cd iTorch
+  800  luarocks make 
+  801  # Ubuntu
+  802  sudo apt-get install libzmq3-dev libssl-dev python-zmq
+  803  luarocks install lzmq
+  804  luarocks make 
+  805  luarocks install uuid
+  806  luarocks install luacrypto
+  807  luarocks install luaossl
+  808  exit
+  809  pip install scikit-learn
+  810  pip install msgpack
+  811  pip install scikit-learn
+  812  pip install --upgrade pip
+  813  exit
+  814  # The version of Anaconda may be different depending on when you are installing`
+  815  curl -O https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+  816  sh Anaconda3-5.2.0-Linux-x86_64.sh
+  817  conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
+  818  conda3 install pytorch torchvision cudatoolkit=9.0 -c pytorch
+  819  source ~/.bashrc
+  820  conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
+  821  cd ~/Desktop/ml/torch/
+  822  jupyter notebook
+  823  sudo pip install gym
+  824  gedit gym-test.py
+  825  python gym-test.py 
+  826  pip install gym
+  827  python gym-test.py 
+  828  exit
+  829  gedit gym-test.py 
+  830  python gym-test-2.py 
+  831  cd ~/Desktop/ml/torch/
+  832  jupyter notebook
+  833  exit
+  834  exit
+  835  exit
+  836  sudo apt install build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev
+  837  R
+  838  apt-get install libcurl4-openssl-dev
+  839  sudo apt-get install libcurl4-openssl-dev
+  840  R
+  841  sudo apt-get install -y libpoppler-cpp-dev
+  842  R
+  843  exit
+  844  cd ~/Desktop/ml/nltk/
+  845  ls
+  846  jupyter notebook
+  847  exit
+  848  cd ~/Desktop/
+  849  python page_load_stats.py 
+  850  pip install urllib2
+  851  sudo pip install urllib2
+  852  python3 page_load_stats.py 
+  853  python page_load_2.py 
+  854  sudo apt install googler
+  855  googler --count 10 Personal loans >> loans.txt
+  856  googler --count 10 "Personal loans"
+  857  googler
+  858  googler --count 3 --exact loans
+  859  python google_search_results_parse.py 
+  860  pip install cssselect
+  861  python google_search_results_parse.py 
+  862  python3 page_load_stats.py 
+  863  exit
+  864  cd ~/Desktop/ml/nltk/
+  865  rm notebook.tex 
+  866  jupyter notebook
+  867  exit
+  868  cd ~/Desktop/ml/nltk/
+  869  jupyter notebook
+  870  exit
+  871  sudo pip install sympy
+  872  pip install sympy
+  873  python
+  874  jupyter notebook
+  875  python
+  876  exit
+  877  cd ~/Desktop/ml/torch/
+  878  jupyter notebook
+  879  exit
+  880  cd ~/Desktop/ml
+  881  jupyter notebook
+  882  sudo pip install pillow
+  883  pip install pillow
+  884  exit
+  885  cd ~/Desktop/ml/torch/
+  886  jupyter notebook
+  887  exit
+  888  conda install -c conda-forge scikit-image
+  889  exit
+  890  cd ~/Desktop/ml
+  891  mkdir sklearn
+  892  cd sklearn/
+  893  jupyter notebook
+  894  exit
+  895  cd ~/Desktop/ml
+  896  cd StatisticalLearning/
+  897  mkdir books
+  898  ls
+  899  mv ESLII.pdf books/
+  900  mv ISLR\ First\ Printing.pdf books/
+  901  ls
+  902  jupyter notebook
+  903  R
+  904  jupyter notebook
+  905  exit
+  906  cd ~/Downloads/
+  907  gdebi pandoc-2.7.2-1-amd64.deb 
+  908  sudo gdebi pandoc-2.7.2-1-amd64.deb 
+  909  sudo dpkg -i pandoc-2.7.2-1-amd64.deb 
+  910  exit
+  911  ls
+  912  cd jupyter_notebooks/
+  913  ls
+  914  jupyter notebook
+  915  exit
+  916  len
+  917  lein
+  918  lein repl
+  919  exit
+  920  cd ~/Dropbox/New-Inspiron-Ubuntu/Other/jupyter_notebooks/
+  921  jupyter notebook
+  922  exit
+  923  pip install --upgrade scikit-image
+  924  pip install -U scikit-image
+  925  pip3 install --upgrade scikit-image
+  926  pip3 install --upgrade numpy
+  927  exit
+  928  cd ~/Dropbox/New-Inspiron-Ubuntu/Downloads/
+  929  ls tor*
+  930  cd ..
+  931  cd Documents/
+  932  ls
+  933  cd Documents/
+  934  ls tor*
+  935  cd ../Desktop/ml/torch/
+  936  ls
+  937  jupyter notebook
+  938  exit
+  939  history | grep "pic"
+  940  history | grep "pic" > ~/Dropbox/New-Inspiron-Ubuntu/Desktop/groff-test/pic_cmds.txt
+  941  exit
+  942  groff -m ms me notes.mm > notes.ps
+  943  groff -m ms -e notes.mm > notes.ps
+  944  groff -m ms -e notes.mm -Tpdf >  notes.pdf
+  945  xpdf notes.pdf 
+  946  groff -m ms -e notes.mm > notes.ps
+  947  groff -m ms -e notes.mm -Tpdf >  notes.pdf
+  948  xpdf notes.pdf 
+  949  groff -m ms -e notes.mm > notes.ps
+  950  groff -m ms -e notes.mm -Tpdf >  notes.pdf
+  951  xpdf notes.pdf 
+  952  groff -m ms -e notes.mm -Tpdf >  notes.pdf
+  953  xpdf notes.pdf 
+  954  groff -m ms -e notes.mm -Tpdf >  notes.pdf
+  955  groff -m ms -e notes.mm > notes.ps
+  956  groff -m ms -e notes.mm -Tpdf >  notes.pdf
+  957  xpdf notes.pdf 
+  958  groff -m ms -e notes.mm -Tpdf >  notes.pdf
+  959  groff -m ms -e notes.mm > notes.ps
+  960  xpdf notes.pdf 
+  961  groff -m ms -e notes.mm > notes.ps
+  962  groff -m ms -e notes.mm -Tpdf >  notes.pdf
+  963  xpdf notes.pdf 
+  964  groff -m ms -e notes.mm > notes.ps
+  965  groff -m ms -e notes.mm -Tpdf >  notes.pdf
+  966  xpdf notes.pdf 
+  967  groff -m ms -e notes.mm -Tpdf >  notes.pdf
+  968  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+  969  groff -m ms -pe notes.mm > notes.ps
+  970  xpdf notes.pdf 
+  971  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+  972  groff -m ms -pe notes.mm > notes.ps
+  973  xpdf notes.pdf 
+  974  groff -m ms -pe notes.mm > notes.ps
+  975  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+  976  xpdf notes.pdf 
+  977  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+  978  xpdf notes.pdf 
+  979  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+  980  xpdf notes.pdf 
+  981  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+  982  xpdf notes.pdf 
+  983  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+  984  xpdf notes.pdf 
+  985  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+  986  xpdf notes.pdf 
+  987  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+  988  xpdf notes.pdf 
+  989  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+  990  xpdf notes.pdf 
+  991  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+  992  xpdf notes.pdf 
+  993  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+  994  xpdf notes.pdf 
+  995  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+  996  xpdf notes.pdf 
+  997  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+  998  xpdf notes.pdf 
+  999  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1000  xpdf notes.pdf 
+ 1001  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1002  xpdf notes.pdf 
+ 1003  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1004  xpdf notes.pdf 
+ 1005  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1006  xpdf notes.pdf 
+ 1007  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1008  xpdf notes.pdf 
+ 1009  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1010  xpdf notes.pdf 
+ 1011  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1012  xpdf notes.pdf 
+ 1013  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1014  xpdf notes.pdf 
+ 1015  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1016  xpdf notes.pdf 
+ 1017  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1018  xpdf notes.pdf 
+ 1019  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1020  xpdf notes.pdf 
+ 1021  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1022  xpdf notes.pdf 
+ 1023  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1024  xpdf notes.pdf 
+ 1025  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1026  xpdf notes.pdf 
+ 1027  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1028  xpdf notes.pdf 
+ 1029  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1030  xpdf notes.pdf 
+ 1031  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1032  xpdf notes.pdf 
+ 1033  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1034  xpdf notes.pdf 
+ 1035  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1036  xpdf notes.pdf 
+ 1037  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1038  xpdf notes.pdf 
+ 1039  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1040  xpdf notes.pdf 
+ 1041  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1042  xpdf notes.pdf 
+ 1043  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1044  xpdf notes.pdf 
+ 1045  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1046  xpdf notes.pdf 
+ 1047  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1048  xpdf notes.pdf 
+ 1049  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1050  xpdf notes.pdf 
+ 1051  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1052  xpdf notes.pdf 
+ 1053  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1054  xpdf notes.pdf 
+ 1055  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1056  xpdf notes.pdf 
+ 1057  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1058  xpdf notes.pdf 
+ 1059  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1060  xpdf notes.pdf 
+ 1061  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1062  xpdf notes.pdf 
+ 1063  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1064  xpdf notes.pdf 
+ 1065  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1066  xpdf notes.pdf 
+ 1067  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1068  xpdf notes.pdf 
+ 1069  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1070  xpdf notes.pdf 
+ 1071  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1072  xpdf notes.pdf 
+ 1073  groff -m ms -pe notes.mm  >  notes.ps
+ 1074  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1075  xpdf notes.pdf 
+ 1076  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1077  xpdf notes.pdf 
+ 1078  groff -m ms -pe notes.mm  >  notes.ps
+ 1079  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1080  xpdf notes.pdf 
+ 1081  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1082  xpdf notes.pdf 
+ 1083  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1084  xpdf notes.pdf 
+ 1085  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1086  xpdf notes.pdf 
+ 1087  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1088  xpdf notes.pdf 
+ 1089  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1090  xpdf notes.pdf 
+ 1091  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1092  xpdf notes.pdf 
+ 1093  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1094  xpdf notes.pdf 
+ 1095  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1096  xpdf notes.pdf 
+ 1097  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1098  xpdf notes.pdf 
+ 1099  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1100  xpdf notes.pdf 
+ 1101  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1102  xpdf notes.pdf 
+ 1103  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1104  xpdf notes.pdf 
+ 1105  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1106  xpdf notes.pdf 
+ 1107  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1108  xpdf notes.pdf 
+ 1109  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1110  xpdf notes.pdf 
+ 1111  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1112  xpdf notes.pdf 
+ 1113  groff -m ms -pe notes.mm  >  notes.ps
+ 1114  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1115  xpdf notes.pdf 
+ 1116  evince notes.ps
+ 1117  display notes.ps
+ 1118  gv notes.p
+ 1119  gv notes.ps
+ 1120  sudo apt-get install gv
+ 1121  gv notes.ps
+ 1122  groff -m ms -pe notes.mm  >  notes.ps
+ 1123  gv notes.ps
+ 1124  groff -m ms -pe notes.mm  >  notes.ps
+ 1125  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1126  xpdf notes.pdf 
+ 1127  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1128  xpdf notes.pdf 
+ 1129  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1130  xpdf notes.pdf 
+ 1131  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1132  xpdf notes.pdf 
+ 1133  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1134  xpdf notes.pdf 
+ 1135  exit
+ 1136  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1137  xpdf notes.pdf 
+ 1138  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1139  xpdf notes.pdf 
+ 1140  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1141  xpdf notes.pdf 
+ 1142  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1143  xpdf notes.pdf 
+ 1144  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1145  xpdf notes.pdf 
+ 1146  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1147  xpdf notes.pdf 
+ 1148  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1149  xpdf notes.pdf 
+ 1150  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1151  xpdf notes.pdf 
+ 1152  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1153  xpdf notes.pdf 
+ 1154  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1155  xpdf notes.pdf 
+ 1156  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1157  xpdf notes.pdf 
+ 1158  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1159  xpdf notes.pdf 
+ 1160  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1161  xpdf notes.pdf 
+ 1162  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1163  xpdf notes.pdf 
+ 1164  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1165  xpdf notes.pdf 
+ 1166  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1167  xpdf notes.pdf 
+ 1168  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1169  xpdf notes.pdf 
+ 1170  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1171  xpdf notes.pdf 
+ 1172  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1173  xpdf notes.pdf 
+ 1174  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1175  xpdf notes.pdf 
+ 1176  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1177  xpdf notes.pdf 
+ 1178  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1179  xpdf notes.pdf 
+ 1180  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1181  xpdf notes.pdf 
+ 1182  groff -m ms -pe notes.mm >  notes.ps
+ 1183  ps2pdf notes.ps
+ 1184  groff -m ms -pe notes.mm >  notes.ps
+ 1185  ps2pdf notes.ps
+ 1186  xpdf notes.pdf 
+ 1187  groff -m ms -pe notes.mm >  notes.ps
+ 1188  ps2pdf notes.ps
+ 1189  xpdf notes.pdf 
+ 1190  groff -m ms -pe notes.mm >  notes.ps
+ 1191  ps2pdf notes.ps
+ 1192  xpdf notes.pdf 
+ 1193  groff -m ms -pe notes.mm >  notes.ps
+ 1194  ps2pdf notes.ps
+ 1195  xpdf notes.pdf 
+ 1196  groff -m ms -pe notes.mm >  notes.ps
+ 1197  ps2pdf notes.ps
+ 1198  xpdf notes.pdf 
+ 1199  groff -m ms -pe notes.mm >  notes.ps
+ 1200  ps2pdf notes.ps
+ 1201  xpdf notes.pdf 
+ 1202  groff -m ms -pe notes.mm >  notes.ps
+ 1203  ps2pdf notes.ps
+ 1204  xpdf notes.pdf 
+ 1205  groff -m ms -pe notes.mm >  notes.ps
+ 1206  ps2pdf notes.ps
+ 1207  xpdf notes.pdf 
+ 1208  mv ~/Downloads/all_questions.csv ~/Dropbox/New-Inspiron-Ubuntu/Other/jupyter_notebooks/
+ 1209  exit
+ 1210  cd ~/Dropbox/New-Inspiron-Ubuntu/Other/jupyter_notebooks/
+ 1211  jupyter notebook
+ 1212  exit
+ 1213  cd ..
+ 1214  git clone https://gitlab.com/GauravNama/assesment2.git
+ 1215  exit
+ 1216  ls
+ 1217  git clone https://github.com/udacity/deep-reinforcement-learning.git
+ 1218  git clone https://github.com/udacity/deep-learning-v2-pytorch.git
+ 1219  git clone https://github.com/udacity/pytorch_challenge.git
+ 1220  mkdir reinforcement-learning
+ 1221  cd reinforcement-learning/
+ 1222  jupyter notebook
+ 1223  exit
+ 1224  cd ~/Dropbox/New-Inspiron-Ubuntu/Other/tornado-learning/ch1/
+ 1225  python hello.py 
+ 1226  pip install textwrap
+ 1227  python
+ 1228  exit
+ 1229  curl http://localhost:8000/wrap -d text=Lorem+ipsum+dolor+si+amet
+ 1230  curl http://localhost:8000/wrap -d text=mytest
+ 1231  curl http://localhost:8000/wrap -d text=my test
+ 1232  curl http://localhost:8000/wrap -d text=my%20test
+ 1233  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
+ 1234  echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
+ 1235  sudo apt-get update
+ 1236  sudo apt-get install -y mongodb-org
+ 1237  echo "mongodb-org hold" | sudo dpkg --set-selections
+ 1238  echo "mongodb-org-server hold" | sudo dpkg --set-selections
+ 1239  echo "mongodb-org-shell hold" | sudo dpkg --set-selections
+ 1240  echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
+ 1241  echo "mongodb-org-tools hold" | sudo dpkg --set-selections
+ 1242  sudo service mongod start
+ 1243  sudo pip install tornado motor
+ 1244  client = motor.motor_tornado.MotorClient()
+ 1245  python
+ 1246  exit
+ 1247  mongo
+ 1248  exit
+ 1249  python
+ 1250  sudo pip3 install tornado motor
+ 1251  pip3 install tornado motor
+ 1252  python
+ 1253  exit
+ 1254  cd ~/Dropbox/New-Inspiron-Ubuntu/Other/tornado-learning/ch1/
+ 1255  python string_service.py 
+ 1256  exit
+ 1257  cd ~/Dropbox/New-Inspiron-Ubuntu/Other/tornado-learning/ch1/
+ 1258  python string_service.py 
+ 1259  exit
+ 1260  pip install twisted
+ 1261  cd ~/Dropbox/New-Inspiron-Ubuntu/Other/tornado-learning/ch4
+ 1262  sqlite3 user.db
+ 1263  rm -rf user.db
+ 1264  sqlite3 users.db
+ 1265  python db.py
+ 1266  python index.py 
+ 1267  exit
+ 1268  cd ~/Dropbox/New-Inspiron-Ubuntu/Other/tornado-learning/ch4
+ 1269  python index.py 
+ 1270  python db.py 
+ 1271  python index.py
+ 1272  exit
+ 1273  siege http://localhost:8000/?q=pants -c10 -t10s
+ 1274  sudo apt install siege
+ 1275  siege http://localhost:8000/?q=pants -c10 -t10s
+ 1276  ls
+ 1277  cd ..
+ 1278  cd ch6
+ 1279  ls
+ 1280  python cookie_counter.py 
+ 1281  python cookies.py 
+ 1282  cd ..
+ 1283  ls
+ 1284  git init
+ 1285  git commit -am "first commit"
+ 1286  git config user.name "Vikram Krishnan"
+ 1287  git config user.email "kvikram9885@gmail.com"
+ 1288  git commit -am "first commit"
+ 1289  git add .
+ 1290  git commit -am "first commit"
+ 1291  git remote add origin https://github.com/vikramkrishnan9885/TornadoLearning.git
+ 1292  git push -u origin master
+ 1293  exit
+ 1294  cd ~/Dropbox/New-Inspiron-Ubuntu/Other/tornado-learning/ch5
+ 1295  python tweet_rate_async.py 
+ 1296  exit
+ 1297  pip install tensorflow
+ 1298  sudo pip install tensorflow
+ 1299  pip install tensorflow-tensorboard
+ 1300  sudo pip install tensorflow-tensorboard
+ 1301  pip install tensorboard-pytorch
+ 1302  sudo pip install tensorboard-pytorch
+ 1303  exit
+ 1304  pip3 install tensorflow
+ 1305  pip3 install tensorflow-tensorboard
+ 1306  pip3 install tensorboard-pytorch
+ 1307  python -m tensorboard.main --logdir=/path/to/logs
+ 1308  exit
+ 1309  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/DSA/
+ 1310  cd Graphs/
+ 1311  python matrix_prob.py 
+ 1312  exit
+ 1313  curl https://www.ukuug.org/events/agm2010/ShortestPath.pdf
+ 1314  curl --output -pdf https://www.ukuug.org/events/agm2010/ShortestPath.pdf
+ 1315  cd ~/Dropbox/New-Inspiron-Ubuntu/
+ 1316  cd Other/
+ 1317  ls
+ 1318  cd ..
+ 1319  cd Desktop/DSA
+ 1320  ls
+ 1321  cd LinkedList/
+ 1322  g++ CircularLinkedList.cpp 
+ 1323  ./a.out 
+ 1324  cd ..
+ 1325  cd Stack/
+ 1326  python infix_to_postfix.py 
+ 1327  cd ..
+ 1328  mkdir nubank
+ 1329  cd nubank/
+ 1330  jupyter notebook
+ 1331  exit
+ 1332  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/ml/torch/reinforcement-learning/
+ 1333  ls
+ 1334  jupyter ntoebook
+ 1335  jupyter notebook
+ 1336  exit
+ 1337  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/ml/torch/reinforcement-learning/
+ 1338  ls
+ 1339  jupyter notebook
+ 1340  cd ..
+ 1341  git clone https://github.com/changwookjun/StudyBook.git
+ 1342  cd ~/Desktop/
+ 1343  python chapter-4.py 
+ 1344  exit
+ 1345  sudo pip install cairo
+ 1346  sudo pip install pycairo
+ 1347  sudo apt-get install python-cairocffi python3-cairocffi
+ 1348  python
+ 1349  apt install libcairo2
+ 1350  sudo apt install libcairo2
+ 1351  sudo apt install python-cairo
+ 1352  python 
+ 1353  exit
+ 1354  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/ml/torch/reinforcement-learning/
+ 1355  jupyter notebook
+ 1356  exit
+ 1357  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/ml/
+ 1358  cd torch/
+ 1359  cd ..
+ 1360  mkdir gans
+ 1361  cd gans/
+ 1362  mkdir notes
+ 1363  cd notes/
+ 1364  exit
+ 1365  cd ~/Downloads/
+ 1366  ps2pdf meintro.ps 
+ 1367  xpdf meintro.pdf 
+ 1368  foxit meintro.p
+ 1369  foxit meintro.pdf
+ 1370  history | grep 'groff'
+ 1371  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/ml/gans/notes/
+ 1372  ls
+ 1373  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1374  xpdf notes.pdf 
+ 1375  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1376  xpdf notes.pdf 
+ 1377  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1378  xpdf notes.pdf 
+ 1379  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1380  xpdf notes.pdf 
+ 1381  groff -m ms -pe notes.mm -Tpdf >  notes.pdf
+ 1382  xpdf notes.pdf 
+ 1383  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1384  xpdf notes.pdf 
+ 1385  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1386  xpdf notes.pdf 
+ 1387  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1388  xpdf notes.pdf 
+ 1389  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1390  xpdf notes.pdf 
+ 1391  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1392  xpdf notes.pdf 
+ 1393  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1394  xpdf notes.pdf 
+ 1395  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1396  xpdf notes.pdf 
+ 1397  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1398  xpdf notes.pdf 
+ 1399  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1400  xpdf notes.pdf 
+ 1401  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1402  xpdf notes.pdf 
+ 1403  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1404  xpdf notes.pdf 
+ 1405  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1406  xpdf notes.pdf 
+ 1407  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1408  xpdf notes.pdf 
+ 1409  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1410  xpdf notes.pdf 
+ 1411  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1412  xpdf notes.pdf 
+ 1413  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1414  xpdf notes.pdf 
+ 1415  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1416  xpdf notes.pdf 
+ 1417  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1418  xpdf notes.pdf 
+ 1419  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1420  xpdf notes.pdf 
+ 1421  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1422  xpdf notes.pdf 
+ 1423  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1424  xpdf notes.pdf 
+ 1425  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1426  xpdf notes.pdf 
+ 1427  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1428  xpdf notes.pdf 
+ 1429  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1430  xpdf notes.pdf 
+ 1431  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1432  xpdf notes.pdf 
+ 1433  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1434  xpdf notes.pdf 
+ 1435  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1436  xpdf notes.pdf 
+ 1437  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1438  xpdf notes.pdf 
+ 1439  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1440  xpdf notes.pdf 
+ 1441  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1442  xpdf notes.pdf 
+ 1443  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1444  xpdf notes.pdf 
+ 1445  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1446  xpdf notes.pdf 
+ 1447  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1448  xpdf notes.pdf 
+ 1449  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1450  xpdf notes.pdf 
+ 1451  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1452  xpdf notes.pdf 
+ 1453  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1454  xpdf notes.pdf 
+ 1455  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1456  xpdf notes.pdf 
+ 1457  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1458  xpdf notes.pdf 
+ 1459  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1460  xpdf notes.pdf 
+ 1461  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1462  xpdf notes.pdf 
+ 1463  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1464  xpdf notes.pdf 
+ 1465  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1466  xpdf notes.pdf 
+ 1467  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1468  xpdf notes.pdf 
+ 1469  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1470  xpdf notes.pdf 
+ 1471  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1472  xpdf notes.pdf 
+ 1473  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1474  xpdf notes.pdf 
+ 1475  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1476  xpdf notes.pdf 
+ 1477  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1478  xpdf notes.pdf 
+ 1479  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1480  xpdf notes.pdf 
+ 1481  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1482  xpdf notes.pdf 
+ 1483  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1484  xpdf notes.pdf 
+ 1485  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1486  xpdf notes.pdf 
+ 1487  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1488  xpdf notes.pdf 
+ 1489  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1490  xpdf notes.pdf 
+ 1491  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1492  xpdf notes.pdf 
+ 1493  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1494  xpdf notes.pdf 
+ 1495  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1496  xpdf notes.pdf 
+ 1497  groff -m ms -pet notes.mm -Tpdf >  notes.pdf
+ 1498  xpdf notes.pdf 
+ 1499  exit
+ 1500  mkdir zmq
+ 1501  cd zmq/
+ 1502  git clone --depth=1 git://github.com/imatix/zguide.git
+ 1503  cd ..
+ 1504  mkdir s3-learning
+ 1505  cd s3-learning/
+ 1506  code s3Learning.html
+ 1507  sudo snap install code
+ 1508  exit
+ 1509  R
+ 1510  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/
+ 1511  ls
+ 1512  mkdir pylearn
+ 1513  cd pylearn/
+ 1514  jupyter notebook
+ 1515  exit
+ 1516  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/
+ 1517  ls
+ 1518  cd pylearn/
+ 1519  ls
+ 1520  jupyter notebook
+ 1521  exit
+ 1522  sudo apt-get install spark
+ 1523  spark
+ 1524  pip install pyspark
+ 1525  pyspark
+ 1526  exit
+ 1527  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/
+ 1528  mkdir spark-hi-perf
+ 1529  cd spark-hi-perf/
+ 1530  jupyter notebook
+ 1531  cd ..
+ 1532  ls
+ 1533  cd practice/
+ 1534  ls
+ 1535  cd lc
+ 1536  ls
+ 1537  cd ..
+ 1538  ls
+ 1539  cd ..
+ 1540  ls
+ 1541  cd pylearn/
+ 1542  ls
+ 1543  jupyter notebook
+ 1544  PS1='PEXPE\[\]CT_PROMPT>' PS2='PEXPE\[\]CT_PROMPT_' PROMPT_COMMAND=''
+ 1545  export PAGER=cat
+ 1546  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/spark-hi-perf/
+ 1547  ls
+ 1548  jupyter notebook
+ 1549  exit
+ 1550  PS1='PEXPE\[\]CT_PROMPT>' PS2='PEXPE\[\]CT_PROMPT_' PROMPT_COMMAND=''
+ 1551  export PAGER=cat
+ 1552  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/spark-hi-perf/
+ 1553  jupyter notebook
+ 1554  exit
+ 1555  sudo apt install mysql-client-core-5.7 
+ 1556  sudo apt install mariadb-client-core-10.1
+ 1557  sudo apt-get update
+ 1558  sudo apt-get install mysql-server
+ 1559  systemctl start mysql
+ 1560  /usr/bin/mysql -u root -p
+ 1561  mysql_secure_installation
+ 1562  mysql -u root -p1q2w3e4r!
+ 1563  exit
+ 1564  ls
+ 1565  jupyter notebook
+ 1566  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/ml/gans/R
+ 1567  jupyter notebook
+ 1568  exit
+ 1569  cd /home/vikram/
+ 1570  ls -a
+ 1571  cd .keras
+ 1572  ls
+ 1573  cd datasets/
+ 1574  ls
+ 1575  cd cifar-10-batches-py/
+ 1576  ls
+ 1577  python
+ 1578  ls
+ 1579  cd .. 
+ 1580  rm cifar-10-batches-py
+ 1581  ls
+ 1582  rm -rf cifar-10-batches-py
+ 1583  tar xvfz cifar-10-batches-py.tar.gz 
+ 1584  ls
+ 1585  cd cifar-10-batches-py/
+ 1586  ls
+ 1587  cd ..
+ 1588  rm -rf cifar-10-batches-py
+ 1589  pip install tflearn
+ 1590  ls
+ 1591  rm -rf cifar-10-batches-py
+ 1592  ls
+ 1593  rm cifar-10-batches-py.tar.gz 
+ 1594  pip install git+https://github.com/tflearn/tflearn.git
+ 1595  ls
+ 1596  python
+ 1597  ls
+ 1598  wget -c https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+ 1599  ls
+ 1600  cd ..
+ 1601  cd ml/gans/R
+ 1602  ls
+ 1603  jupyter notebook
+ 1604  cd ../../..
+ 1605  ls
+ 1606  cd pylearn/
+ 1607  ls
+ 1608  jupyter notebook
+ 1609  PS1='PEXPE\[\]CT_PROMPT>' PS2='PEXPE\[\]CT_PROMPT_' PROMPT_COMMAND=''
+ 1610  export PAGER=cat
+ 1611  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/
+ 1612  ls
+ 1613  cd practice/
+ 1614  ls
+ 1615  cd ..
+ 1616  cd pylearn/
+ 1617  ls
+ 1618  jupyter notebook
+ 1619  cd ..
+ 1620  mkdir Hadoop-Ops
+ 1621  cd Hadoop-Ops/
+ 1622  jupyter notebook
+ 1623  exit
+ 1624  ls
+ 1625  cd pylearn/
+ 1626  ls
+ 1627  jupyter notebook
+ 1628  exit
+ 1629  PS1='PEXPE\[\]CT_PROMPT>' PS2='PEXPE\[\]CT_PROMPT_' PROMPT_COMMAND=''
+ 1630  export PAGER=cat
+ 1631  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/Hadoop-Ops/
+ 1632  ls
+ 1633  jupyter notebook
+ 1634  cd ..
+ 1635  cd spark-hi-perf/
+ 1636  ls
+ 1637  jupyter notebook
+ 1638  exit
+ 1639  PS1='PEXPE\[\]CT_PROMPT>' PS2='PEXPE\[\]CT_PROMPT_' PROMPT_COMMAND=''
+ 1640  export PAGER=cat
+ 1641  wget https://archive.ics.uci.edu/ml/machine-learning-databases/reuters21578-mld/reuters21578.tar.gz
+ 1642  tar -xzvf reuters21578.tar.gz reut2-000.sgm
+ 1643  cat reut2-000.sgm | tr '\n' ' ' | sed -e 's/<\/BODY>/\n/g' | sed -e 's/^.*<BODY>//' | tr -cd '[[:alpha:]] \n' >rcorpus
+ 1644  sps
+ 1645  exit
+ 1646  tar xvf ~/Downloads/cit-HepTh.txt.gz
+ 1647  gunzip ~/Downloads/cit-HepTh.txt.gz 
+ 1648  gunzip ~/Downloads/soc-Slashdot0811.txt.gz 
+ 1649  wget https://archive.ics.uci.edu/ml/machine-learning-databases/reuters21578-mld/reuters21578.tar.gz
+ 1650  tar -xzvf reuters21578.tar.gz reut2-000.sgm
+ 1651  cat reut2-000.sgm | tr '\n' ' ' | sed -e 's/<\/BODY>/\n/g' | sed -e 's/^.*<BODY>//' | tr -cd '[[:alpha:]] \n' >rcorpus
+ 1652  exit
+ 1653  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/
+ 1654  mkdir graphx
+ 1655  cd graphx/
+ 1656  jupyter notebook
+ 1657  ls
+ 1658  rm Untitled.ipynb 
+ 1659  jupyter notebook
+ 1660  exit
+ 1661  cd /opt/
+ 1662  ls
+ 1663  cd ..
+ 1664  cd ~/
+ 1665  sudo apt install g++
+ 1666  sudo apt install build-essential
+ 1667  cd ~/Desktop/
+ 1668  gedit hello.cpp
+ 1669  g++ -o hello hello.cpp 
+ 1670  ./hello 
+ 1671  g++ -o hello hello.cpp 
+ 1672  ./hello 
+ 1673  R
+ 1674  exit
+ 1675  sudo apt-get install -y libzmq3-dev
+ 1676  R
+ 1677  cd ~/Desktop/
+ 1678  gedit server.R
+ 1679  chmod +x server.R 
+ 1680  ./server.R 
+ 1681  exit
+ 1682  R
+ 1683  exit
+ 1684  cd sklearn/
+ 1685  jupyter notebook
+ 1686  exit
+ 1687  sudo pip install iplotter
+ 1688  conda install basemap
+ 1689  pip install basemap
+ 1690  conda install basemap
+ 1691  exit
+ 1692  pip install mpl_toolkit
+ 1693  pip install mpl_toolkits
+ 1694  pip install --upgrade matplotlib
+ 1695  python
+ 1696  pip install ipyleaflet
+ 1697  sudo pip install ipyleaflet
+ 1698  from ipyleaflet import Map, basemaps, basemap_to_tiles
+ 1699  m = Map(
+ 1700  )
+ 1701  exit
+ 1702  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/ml/pycharting/
+ 1703  jupyter notebook
+ 1704  exit
+ 1705  ls
+ 1706  cd ~
+ 1707  ls
+ 1708  cd ~/Dropbox/New-Inspiron-Ubuntu/Other/
+ 1709  l
+ 1710  cd tornado-learning/
+ 1711  git add .
+ 1712  git commit -am "Added files"
+ 1713  exit
+ 1714  mkdir grab
+ 1715  cd grab
+ 1716  ls
+ 1717  jupyter notebook
+ 1718  cd ../backbone-learning
+ 1719  cd ..
+ 1720  mkdir backcone-learning
+ 1721  rm backcone-learning/
+ 1722  mv backcone-learning/ backbone-learning/
+ 1723  cd backbone-learning/
+ 1724  code hello.html
+ 1725  sudo snap install code
+ 1726  sudo snap install code --classic
+ 1727  exit
+ 1728  cd ..
+ 1729  cd nubank/
+ 1730  ls
+ 1731  jupyter notebook
+ 1732  exit
+ 1733  cd ..
+ 1734  ls
+ 1735  cd practice/
+ 1736  ls
+ 1737  cd lc
+ 1738  ls
+ 1739  cd ..
+ 1740  cd pylearn/
+ 1741  ls
+ 1742  jupyter notebook
+ 1743  exit
+ 1744  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/grab/
+ 1745  jupyter notebook
+ 1746  exit
+ 1747  cd ~/Desktop/
+ 1748  python3 similarweb.py 
+ 1749  exit
+ 1750  cd ~/Desktop/
+ 1751  python3 similarweb.py 
+ 1752  ls *.py
+ 1753  ls -l *.py
+ 1754  exit
+ 1755  cd ~/Desktop/
+ 1756  python chapter-4.py 
+ 1757  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/credenc-scripts/
+ 1758  ls
+ 1759  python search-terms.py 
+ 1760  jupyter notebook
+ 1761  python post_proc.py
+ 1762  ls *.py
+ 1763  python search-terms.py 
+ 1764  python post_proc.py
+ 1765  exit
+ 1766  pip install bokeh==0.13.0
+ 1767  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/
+ 1768  mkdir bokeh
+ 1769  cd bokeh/
+ 1770  jupyter notebook
+ 1771  exit
+ 1772  firefox /home/vikram/Dropbox/New-Inspiron-Ubuntu/Desktop/bokeh/Line_from_csv.html
+ 1773  exit
+ 1774  cd /var/www
+ 1775  cd ..
+ 1776  cd /var/www
+ 1777  ls
+ 1778  cd var/www
+ 1779  cd var
+ 1780  ls
+ 1781  mkdir www
+ 1782  sudo
+ 1783  su
+ 1784  exit
+ 1785  ls
+ 1786  cd /var/www
+ 1787  cd ..
+ 1788  cd var
+ 1789  ls
+ 1790  mkdir www
+ 1791  cd www
+ 1792  mkdir cgi-bin
+ 1793  ls
+ 1794  cd cgi-bin
+ 1795  exit
+ 1796  sudo -s
+ 1797  exit
+ 1798  cd /var/www/cgi-bin/
+ 1799  gedit hello.py
+ 1800  chmod 755 hello.py 
+ 1801  /etc/init.d/apache2 start
+ 1802  exit
+ 1803  sudo -s
+ 1804  sudo apt-get install apache2
+ 1805  /etc/init.d/apache2 start
+ 1806  sudo -s
+ 1807  exit
+ 1808  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/
+ 1809  mkdir flume-basics
+ 1810  cd flume-basics/
+ 1811  jupyter notebook
+ 1812  exit
+ 1813  python test.py 
+ 1814  bokeh serve --show test.py 
+ 1815  python server_test.py 
+ 1816  bokeh serve server_test.py 
+ 1817  exit
+ 1818  python server_test_2.py 
+ 1819  exit
+ 1820  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/bokeh/
+ 1821  ls
+ 1822  jupyter notebook
+ 1823  exit
+ 1824  sudo apt-get install build-essential python-dev python-setuptools memcached
+ 1825  sudo apt-get install libffi-dev libjpeg-dev libssl-dev patch
+ 1826  sudo apt-get install cvs git-core subversion python-svn
+ 1827  sudo pip install mercurial p4python
+ 1828  sudo apt-get install python-mysqldb
+ 1829  sudo pip install ReviewBoard
+ 1830  rb-site install
+ 1831  mysql -u root -p
+ 1832  wget https://www.gerritcodereview.com/download/gerrit-2.15.1.war
+ 1833  mkdir gerrit
+ 1834  cd gerrit/
+ 1835  wget https://gerrit.googlecode.com/files/gerrit-2.7-rc1.war
+ 1836  mv ~/Downloads/gerrit-2.14.20.war 
+ 1837  mv ~/Downloads/gerrit-2.14.20.war ~/gerrit/
+ 1838  ls
+ 1839  java -jar gerrit-2.14.20.war init
+ 1840  git config -f ~/gerrit/etc/gerrit.config gerrit.canonicalWebUrl
+ 1841  cd etc/gerrit.config
+ 1842  gedit etc/gerrit.config
+ 1843  bin/gerrit.sh restart
+ 1844  gedit etc/gerrit.config
+ 1845  ls
+ 1846  git clone https://gerrit.googlesource.com/plugins/oauth
+ 1847  cd oauth && bazel build oauth
+ 1848  echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
+ 1849  curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
+ 1850  sudo apt-get update && sudo apt-get install bazel
+ 1851  cd oauth && bazel build oauth
+ 1852  cd ..
+ 1853  cd oauth && bazel build oauth
+ 1854  cd oauth
+ 1855  bazel build oauth
+ 1856  sudo apt-get update && sudo apt-get install bazel
+ 1857  echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
+ 1858  curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
+ 1859  sudo apt-get update && sudo apt-get install bazel
+ 1860  cd ..
+ 1861  mkdir bazel-download
+ 1862  mv ~/Downloads/bazel-0.25.3-installer-linux-x86_64.sh ~/gerrit/bazel-download/
+ 1863  cd bazel-download/
+ 1864  chmod +x bazel-0.25.3-installer-linux-x86_64.sh 
+ 1865  ./bazel-0.25.3-installer-linux-x86_64.sh 
+ 1866  sudo ./bazel-0.25.3-installer-linux-x86_64.sh 
+ 1867  cd ..
+ 1868  cd oauth && bazel build oauth
+ 1869  sudo bazel build oauth
+ 1870  cd ..
+ 1871  ls
+ 1872  cd etc
+ 1873  gedit gerrit.config
+ 1874  cd ..
+ 1875  cd bin/
+ 1876  ls
+ 1877  gerrit.sh restart
+ 1878  ./gerrit.sh restart
+ 1879  cd ..
+ 1880  ls
+ 1881  rm -rf bazel-download/
+ 1882  ls
+ 1883  cd oauth/
+ 1884  ls
+ 1885  cd ..
+ 1886  rm -rf oauth/
+ 1887  mv ~/Downloads/gerrit-oauth-provider.jar ~/gerrit/plugins/
+ 1888  bin/gerrit.sh stop
+ 1889  java -jar gerrit.war init -d
+ 1890  ls
+ 1891  java -jar gerrit-2.14.20.war init -d
+ 1892  java -jar gerrit-2.14.20.war init
+ 1893  cd etc/
+ 1894  ls
+ 1895  gedit gerrit.config
+ 1896  java -jar gerrit-2.14.20.war init
+ 1897  cd ..
+ 1898  java -jar gerrit-2.14.20.war init
+ 1899  bin/gerrit.sh restart
+ 1900  bin/gerrit.sh start
+ 1901  gedit etc/gerrit.config
+ 1902  bin/gerrit.sh start
+ 1903  ls ~/.ssh
+ 1904  cd ..
+ 1905  ls ~/.ssh
+ 1906  cd ~/.ssh
+ 1907  ls
+ 1908  ssh-keygen -t rsa
+ 1909  ls
+ 1910  gedit id_rsa.pub
+ 1911  cd ~/gerrit/
+ 1912  ssh -p 29418 kvikram9885@gmail.com gerrit create-project --name myproject
+ 1913  ssh -p 29418 vikram@localhost gerrit create-project --name myproject
+ 1914  ls
+ 1915  cd git/
+ 1916  ls
+ 1917  cd ~
+ 1918  git clone ssh://vikram@localhost:29418/test
+ 1919  cd test/
+ 1920  scp -p -P 29418 developer@localhost:hooks/commit-msg .
+ 1921  scp -p -P 29418 developer@localhost:hooks/commit-msg ./git/hooks
+ 1922  scp -p -P 29418 vikram@localhost:hooks/commit-msg ./git/hooks
+ 1923  echo "Hello Gerrit" > hello.txt
+ 1924  git add hello.txt
+ 1925  git config user.name "vikram"
+ 1926  git config user.email "vikram@localhost"
+ 1927  git push origin HEAD:refs/for/master
+ 1928  cd ~/gerrit/git
+ 1929  ls
+ 1930  cd test.git/
+ 1931  ls
+ 1932  cd hooks/
+ 1933  ls
+ 1934  cd ..
+ 1935  cd test/
+ 1936  ls
+ 1937  ls -a
+ 1938  cd .git/
+ 1939  ls
+ 1940  cd ..
+ 1941  scp -p -P 29418 developer@localhost:hooks/commit-msg .
+ 1942  scp -p -P 29418 vikram@localhost:hooks/commit-msg .git/hooks/
+ 1943  git commit --amend
+ 1944  ls
+ 1945  git add .
+ 1946  git commit -am "test"
+ 1947  echo "thingies" >> morestuff.txt
+ 1948  git add .
+ 1949  git commit -am "test"
+ 1950  git push origin HEAD:refs/for/master
+ 1951  exit
+ 1952  ls
+ 1953  cd YARN/
+ 1954  jupyter notebook
+ 1955  cd ..
+ 1956  cd ml
+ 1957  ls
+ 1958  cd ..
+ 1959  ls -l
+ 1960  exit
+ 1961  cd ~/Dropbox/New-Inspiron-Ubuntu/Desktop/kafka-learning/
+ 1962  jupyter notebook
+ 1963  exit
+ 1964  jupyter notebook
+ 1965  exit
+ 1966  cd ..
+ 1967  git add .
+ 1968  git commit -am "Bug fixes. Tutorial had some errors"
+ 1969  git push origin master
+ 1970  npm install angular-in-memory-web-api --save
+ 1971  ng generate service InMemoryData
+ 1972  cd angular-tour-of-heroes/
+ 1973  ng generate service InMemoryData
+ 1974  sudo npm install angular-in-memory-web-api --save
+ 1975  npm install rxjs@6 rxjs-compat@6 --save
+ 1976  npm install --save rxjs-compat
+ 1977  sudo npm install --save rxjs-compat
+ 1978  npm i @angular/compiler@6.1.1
+ 1979  npm i @angular/compiler-cli@6.1.1 -D
+ 1980  cd ..
+ 1981  npm i @angular/compiler@6.1.1
+ 1982  npm i @angular/compiler-cli@6.1.1 -D
+ 1983  sudo npm install -g @angular/cli
+ 1984  npm install @angular/cli
+ 1985  npm i @angular/compiler
+ 1986  npm install --save angular-in-memory-web-api
+ 1987  sudo npm install -g @angular/cli
+ 1988  cd angular-tour-of-heroes/
+ 1989  npm install -g @angular/cli
+ 1990  sudo npm install -g @angular/cli
+ 1991  npm install
+ 1992  history >> "test.txt"
