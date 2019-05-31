@@ -133,6 +133,47 @@ export class HeroService {
    * That header is in the httpOptions constant defined in the HeroService.
    */
 
+  /** POST: add a new hero to the server */
+  addHero (hero: Hero): Observable<Hero> {
+    return this.http.post<Hero>(this.heroesUrl, hero, httpOptions).pipe(
+      tap((newHero: Hero) => this.log(`added hero w/ id=${newHero.id}`)),
+      catchError(this.handleError<Hero>('addHero'))
+    );
+  }
+  // HeroService.addHero() differs from updateHero in two ways.
+  // 1. it calls HttpClient.post() instead of put().
+  // 2. it expects the server to generate an id for the new hero, 
+  // which it returns in the Observable<Hero> to the caller.
+
+
+  /** DELETE: delete the hero from the server */
+  deleteHero (hero: Hero | number): Observable<Hero> {
+    const id = typeof hero === 'number' ? hero : hero.id;
+    const url = `${this.heroesUrl}/${id}`;
+
+    return this.http.delete<Hero>(url, httpOptions).pipe(
+      tap(_ => this.log(`deleted hero id=${id}`)),
+      catchError(this.handleError<Hero>('deleteHero'))
+    );
+  }
+  // Note that
+  // it calls HttpClient.delete.
+  // the URL is the heroes resource URL plus the id of the hero to delete
+  // you don't send data as you did with put and post.
+  // you still send the httpOptions.
+
+  /* GET heroes whose name contains search term */
+  searchHeroes(term: string): Observable<Hero[]> {
+    if (!term.trim()) {
+      // if not search term, return empty hero array.
+      return of([]);
+    }
+    return this.http.get<Hero[]>(`${this.heroesUrl}/?name=${term}`).pipe(
+      tap(_ => this.log(`found heroes matching "${term}"`)),
+      catchError(this.handleError<Hero[]>('searchHeroes', []))
+    );
+  }
+
 }
 
 // Components shouldn't fetch or save data directly 
