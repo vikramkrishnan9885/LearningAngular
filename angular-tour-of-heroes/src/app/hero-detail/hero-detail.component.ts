@@ -16,6 +16,7 @@ import { HeroService }  from '../hero.service';
 export class HeroDetailComponent implements OnInit {
 
   @Input() hero: Hero;
+  // TUTORIAL IS WRONG ABOUT THIS. YOU NEED @Input TAG HERE
 
   constructor(private route: ActivatedRoute,
     private heroService: HeroService,
