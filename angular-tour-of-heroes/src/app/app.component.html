@@ -3,5 +3,15 @@
 <h1>
   {{ title }}
 </h1>
-<app-heroes></app-heroes>
+<!--<app-heroes></app-heroes>-->
+
+<nav>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<!--
+  Users shouldn't have to paste a route URL into the address bar. 
+  They should be able to click a link to navigate.
+-->
+
+<router-outlet></router-outlet>
 <app-messages></app-messages>
