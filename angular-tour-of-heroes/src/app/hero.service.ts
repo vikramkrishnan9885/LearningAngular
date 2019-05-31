@@ -39,6 +39,12 @@ export class HeroService {
   // This is a typical "service-in-service" scenario: 
   // you inject the MessageService into the HeroService 
   // which is injected into the HeroesComponent.
+
+  getHero(id: number): Observable<Hero> {
+    // TODO: send the message _after_ fetching the hero
+    this.messageService.add(`HeroService: fetched hero id=${id}`);
+    return of(HEROES.find(hero => hero.id === id));
+  } //This was added in the routing exercises
 }
 
 // Components shouldn't fetch or save data directly 

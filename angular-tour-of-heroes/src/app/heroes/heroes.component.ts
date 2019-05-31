@@ -19,7 +19,9 @@ export class HeroesComponent implements OnInit {
   //heroes = HEROES;
 
   heroes: Hero[];
-  selectedHero: Hero;
+  // selectedHero: Hero;
+  // the onSelect() method and selectedHero property are no longer used, 
+  // we are now using routing to get to hero details
   
   // constructor() { }
   constructor(private heroService: HeroService) { }
@@ -40,9 +42,9 @@ export class HeroesComponent implements OnInit {
   // let Angular call ngOnInit at an appropriate time after constructing a 
   // HeroesComponent instance.
 
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
-  }
+  //onSelect(hero: Hero): void {
+  //  this.selectedHero = hero;
+  //}
 
   //getHeroes(): void {
   //  this.heroes = this.heroService.getHeroes();

@@ -10,6 +10,9 @@ import { HeroesComponent }      from './heroes/heroes.component';
 
 import { DashboardComponent }   from './dashboard/dashboard.component';
 
+import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
+// A URL like ~/detail/11 would be a good URL for navigating to the Hero 
+// Detail view of the hero whose id is 11.
 
 const routes: Routes = [
   { path: 'heroes', component: HeroesComponent },
@@ -19,8 +22,10 @@ const routes: Routes = [
   // to this route
 
   { path: 'dashboard', component: DashboardComponent },
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' }
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   // Add a default route
+
+  { path: 'detail/:id', component: HeroDetailComponent }
 ];
 
 @NgModule({
