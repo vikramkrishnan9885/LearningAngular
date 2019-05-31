@@ -13,6 +13,8 @@ import { Observable, of } from 'rxjs';
 // Observable is one of the key classes in the RxJS library.
 // Angular's HttpClient methods return RxJS Observables
 
+import { MessageService } from './message.service';
+// Inject MessageService into the HeroService
 
 @Injectable({
   providedIn: 'root'
@@ -26,12 +28,17 @@ export class HeroService {
   //  return HEROES;
   //}
   getHeroes(): Observable<Hero[]> {
+    this.messageService.add('HeroService: fetched heroes');
     return of(HEROES);
     // of(HEROES) returns an Observable<Hero[]> that emits a single value, 
     // the array of mock heroes.
   }
 
-  constructor() { }
+  // constructor() { }
+  constructor(private messageService: MessageService) { }
+  // This is a typical "service-in-service" scenario: 
+  // you inject the MessageService into the HeroService 
+  // which is injected into the HeroesComponent.
 }
 
 // Components shouldn't fetch or save data directly 
