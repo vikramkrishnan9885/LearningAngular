@@ -11,10 +11,13 @@ import { MatMenuModule } from '@angular/material';
 import { MatTableModule } from '@angular/material';
 import { MatSortModule } from '@angular/material';
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
+import { MatPaginatorModule } from '@angular/material';
+
 
 @NgModule({
   declarations: [],
   imports: [
+    MatPaginatorModule,
     MatFormFieldModule,
     MatInputModule,
     MatSortModule,
@@ -29,6 +32,7 @@ import { MatFormFieldModule, MatInputModule } from '@angular/material';
     MatToolbarModule
   ],
   exports: [
+    MatPaginatorModule,
     MatFormFieldModule,
     MatInputModule,
     MatSortModule,
