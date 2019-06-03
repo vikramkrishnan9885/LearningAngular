@@ -6,10 +6,12 @@ import { MatTabsModule } from '@angular/material';
 import { MatSidenavModule } from '@angular/material';
 import { MatToolbarModule } from '@angular/material';
 import { MatIconModule, MatButtonModule } from '@angular/material';
+import { MatListModule } from '@angular/material';
 
 @NgModule({
   declarations: [],
   imports: [
+    MatListModule,
     MatButtonModule,
     MatIconModule,
     CommonModule,
@@ -18,6 +20,7 @@ import { MatIconModule, MatButtonModule } from '@angular/material';
     MatToolbarModule
   ],
   exports: [
+    MatListModule,
     MatButtonModule,
     MatIconModule,
     MatTabsModule,
