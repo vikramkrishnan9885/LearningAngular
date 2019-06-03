@@ -8,10 +8,12 @@ import { MatToolbarModule } from '@angular/material';
 import { MatIconModule, MatButtonModule } from '@angular/material';
 import { MatListModule } from '@angular/material';
 import { MatMenuModule } from '@angular/material';
+import { MatTableModule } from '@angular/material';
 
 @NgModule({
   declarations: [],
   imports: [
+    MatTableModule,
     MatMenuModule,
     MatListModule,
     MatButtonModule,
@@ -22,6 +24,7 @@ import { MatMenuModule } from '@angular/material';
     MatToolbarModule
   ],
   exports: [
+    MatTableModule,
     MatMenuModule,
     MatListModule,
     MatButtonModule,
