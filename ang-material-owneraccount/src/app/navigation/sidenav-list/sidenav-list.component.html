@@ -17,3 +17,10 @@
   <button mat-menu-item (click)="onSidenavClose()">View profile</button>
   <button mat-menu-item (click)="onSidenavClose()">Add contact</button>
 </mat-menu>
+
+<!--
+    LOOK AT THE CONTENTS OF THE OWNER MODULE TO FIGURE OUT WHAT THIS DOES
+-->
+<a mat-list-item routerLink="/owner/owners" (click)="onSidenavClose()">
+    <mat-icon>assignment_ind</mat-icon> <span class="nav-caption">Owner Actions</span>
+ </a>
