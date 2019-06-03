@@ -9,10 +9,15 @@ import { MatIconModule, MatButtonModule } from '@angular/material';
 import { MatListModule } from '@angular/material';
 import { MatMenuModule } from '@angular/material';
 import { MatTableModule } from '@angular/material';
+import { MatSortModule } from '@angular/material';
+import { MatFormFieldModule, MatInputModule } from '@angular/material';
 
 @NgModule({
   declarations: [],
   imports: [
+    MatFormFieldModule,
+    MatInputModule,
+    MatSortModule,
     MatTableModule,
     MatMenuModule,
     MatListModule,
@@ -24,6 +29,9 @@ import { MatTableModule } from '@angular/material';
     MatToolbarModule
   ],
   exports: [
+    MatFormFieldModule,
+    MatInputModule,
+    MatSortModule,
     MatTableModule,
     MatMenuModule,
     MatListModule,
