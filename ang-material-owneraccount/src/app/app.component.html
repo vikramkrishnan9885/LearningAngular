@@ -3,9 +3,37 @@
   <app-home></app-home>
 </app-layout>
 -->
-
+<!--
 <app-layout>
   <main>
     <router-outlet></router-outlet>
   </main>
 </app-layout>
+-->
+<app-layout>
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav role="navigation">
+      <!--this is a place for us to add side-nav code-->
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <!--in here all the content must reside. We will add a navigation header as well-->
+      <main>
+        <router-outlet></router-outlet>
+      </main>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</app-layout>
+
+<!--
+  Angular Material provides different components which we can use to 
+  create nicely styled, responsive and effective navigation in our app. 
+  But we need to start with something, don’t we? 
+  So, let’s start with the app.component.html file modification by 
+  using the mat-sidenav-container component
+
+  We create a container for a side navigation bar and specify the part for 
+  our content. As you can see the <mat-sidenav> element defines a place for
+  a side navigation and the <mat-sidenav-content>element defines a place for 
+  our content. We need to use the local reference #sidenav, and a little bit 
+  later, you will see why.
+-->
