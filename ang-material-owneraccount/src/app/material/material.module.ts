@@ -7,10 +7,12 @@ import { MatSidenavModule } from '@angular/material';
 import { MatToolbarModule } from '@angular/material';
 import { MatIconModule, MatButtonModule } from '@angular/material';
 import { MatListModule } from '@angular/material';
+import { MatMenuModule } from '@angular/material';
 
 @NgModule({
   declarations: [],
   imports: [
+    MatMenuModule,
     MatListModule,
     MatButtonModule,
     MatIconModule,
@@ -20,6 +22,7 @@ import { MatListModule } from '@angular/material';
     MatToolbarModule
   ],
   exports: [
+    MatMenuModule,
     MatListModule,
     MatButtonModule,
     MatIconModule,
