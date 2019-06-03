@@ -5,6 +5,7 @@ import { Owner } from '../../_interface/owner.model';
 //
 import { AfterViewInit, ViewChild } from '@angular/core';
 import { MatSort, MatPaginator } from '@angular/material';
+import { ErrorHandlerService } from '../../shared/error-handler.service';
  
 @Component({
   selector: 'app-owner-list',
@@ -23,7 +24,7 @@ export class OwnerListComponent implements OnInit {
   @ViewChild(MatSort, {static: false}) sort: MatSort;
   @ViewChild(MatPaginator, {static: false}) paginator: MatPaginator;
 
-  constructor(private repoService: RepositoryService) { }
+  constructor(private repoService: RepositoryService, private errorService: ErrorHandlerService) { }
  
   ngOnInit() {
     this.getAllOwners();
@@ -38,6 +39,9 @@ export class OwnerListComponent implements OnInit {
     this.repoService.getData('api/owner')
     .subscribe(res => {
       this.dataSource.data = res as Owner[];
+    },
+    (error) => {
+      this.errorService.handleError(error);
     })
   }
  

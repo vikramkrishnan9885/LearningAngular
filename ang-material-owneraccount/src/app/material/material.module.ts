@@ -12,11 +12,17 @@ import { MatTableModule } from '@angular/material';
 import { MatSortModule } from '@angular/material';
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
 import { MatPaginatorModule } from '@angular/material';
+import { MatProgressBarModule } from '@angular/material';
+import { MatCheckboxModule, MatProgressSpinnerModule } from '@angular/material';
+
 
 
 @NgModule({
   declarations: [],
   imports: [
+    MatProgressSpinnerModule,
+    MatCheckboxModule,
+    MatProgressBarModule,
     MatPaginatorModule,
     MatFormFieldModule,
     MatInputModule,
@@ -32,6 +38,9 @@ import { MatPaginatorModule } from '@angular/material';
     MatToolbarModule
   ],
   exports: [
+    MatProgressSpinnerModule,
+    MatCheckboxModule,
+    MatProgressBarModule,
     MatPaginatorModule,
     MatFormFieldModule,
     MatInputModule,
