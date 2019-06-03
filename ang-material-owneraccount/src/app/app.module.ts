@@ -10,6 +10,7 @@ import { MaterialModule } from './material/material.module';
 import { LayoutComponent } from './layout/layout.component';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { HomeComponent } from './home/home.component';
+import { RoutingModule } from './routing/routing.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    RoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
