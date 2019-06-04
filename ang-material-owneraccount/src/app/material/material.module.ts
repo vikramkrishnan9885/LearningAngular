@@ -14,12 +14,15 @@ import { MatFormFieldModule, MatInputModule } from '@angular/material';
 import { MatPaginatorModule } from '@angular/material';
 import { MatProgressBarModule } from '@angular/material';
 import { MatCheckboxModule, MatProgressSpinnerModule } from '@angular/material';
-
+import { MatCardModule, MatSelectModule } from '@angular/material';
+import { MatExpansionModule } from '@angular/material'; // FOR THE ACCORDION - OWNER-DETAIL/ACCOUNT
 
 
 @NgModule({
   declarations: [],
   imports: [
+    MatSelectModule,
+    MatCardModule,
     MatProgressSpinnerModule,
     MatCheckboxModule,
     MatProgressBarModule,
@@ -38,6 +41,8 @@ import { MatCheckboxModule, MatProgressSpinnerModule } from '@angular/material';
     MatToolbarModule
   ],
   exports: [
+    MatSelectModule,
+    MatCardModule,
     MatProgressSpinnerModule,
     MatCheckboxModule,
     MatProgressBarModule,
