@@ -6,10 +6,11 @@ import { MaterialModule } from './../material/material.module';
 
 // 
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { OwnerDetailsComponent } from './owner-details/owner-details.component';
 
 
 @NgModule({
-  declarations: [OwnerListComponent],
+  declarations: [OwnerListComponent, OwnerDetailsComponent],
   imports: [
     CommonModule,
     OwnerRoutingModule,
