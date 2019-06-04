@@ -3,6 +3,6 @@
     "serve": "json-server --watch db.json --static ./static"
   },
   "dependencies": {
-    "json-server": "^0.12.1"
+    "json-server": "^0.12.2"
   }
 }
