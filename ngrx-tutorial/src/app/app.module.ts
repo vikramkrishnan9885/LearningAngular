@@ -4,22 +4,25 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StoreModule } from '@ngrx/store';
-import { reducers, metaReducers } from './store/reducers';
+import { reducers /*, metaReducers */} from './store/reducers';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { AppEffects } from './store/effects/app.effects';
+import { AuthEffects } from './store/effects/auth.effects';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    StoreModule.forRoot(reducers, { metaReducers }),
+    StoreModule.forRoot(reducers /*, { metaReducers }*/),
     !environment.production ? StoreDevtoolsModule.instrument() : [],
-    EffectsModule.forRoot([AppEffects])
+    EffectsModule.forRoot([AppEffects, AuthEffects])
   ],
   providers: [],
   bootstrap: [AppComponent]

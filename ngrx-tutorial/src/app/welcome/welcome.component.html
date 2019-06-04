@@ -1,0 +1,14 @@
+<h1>Welcome to the NgRx Tutorial Application, {{name$ | async}}!</h1>
+<!--
+  Notice the ‘async’ pipe.  That is needed for Observables.  
+  It will handle the unsubscribing so there’s no need for you to do it.
+  This code makes it super easy to access state and show it on your page.  
+  As an alternative, you could have accessed state in this way:
+
+    this.name$ = this.store.select((state) => state.auth.friendlyName);
+    
+  This is problematic, though, because you have to do null checking 
+  and other work to ensure you don’t get errors accessing the state.  
+  With the selector approach, that can be taken care of in a centralized 
+  place and heavily unit tested.
+-->
