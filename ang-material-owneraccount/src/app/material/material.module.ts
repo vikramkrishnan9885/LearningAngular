@@ -21,6 +21,7 @@ import { MatExpansionModule } from '@angular/material'; // FOR THE ACCORDION - O
 @NgModule({
   declarations: [],
   imports: [
+    MatExpansionModule,
     MatSelectModule,
     MatCardModule,
     MatProgressSpinnerModule,
@@ -41,6 +42,7 @@ import { MatExpansionModule } from '@angular/material'; // FOR THE ACCORDION - O
     MatToolbarModule
   ],
   exports: [
+    MatExpansionModule,
     MatSelectModule,
     MatCardModule,
     MatProgressSpinnerModule,
