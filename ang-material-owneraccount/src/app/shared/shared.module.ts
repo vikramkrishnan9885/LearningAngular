@@ -12,12 +12,26 @@ import { ErrorDialogComponent } from './dialogs/error-dialog/error-dialog.compon
   imports: [
     CommonModule,
     MaterialModule,
-    FlexLayoutModule,
+    FlexLayoutModule
   ],
   exports:[
     MaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    SuccessDialogComponent,
+    ErrorDialogComponent
+  ],
+  entryComponents: [
+    SuccessDialogComponent,
+    ErrorDialogComponent
   ]
+  /**
+   * These modules are imported automatically in the shared.module.ts file, 
+   * but we need to export them as well. Moreover, we need to place the dialog 
+   * components inside the entryComponents array because we are not going to 
+   * use routing nor app selector to call these components. We are going to 
+   * use them as a template reference for the dialog’s open() function and 
+   * thus the need for the entryComponents array
+   */
 })
 export class SharedModule { }
 

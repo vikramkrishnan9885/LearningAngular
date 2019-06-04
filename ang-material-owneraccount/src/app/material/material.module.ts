@@ -17,10 +17,12 @@ import { MatCheckboxModule, MatProgressSpinnerModule } from '@angular/material';
 import { MatCardModule, MatSelectModule } from '@angular/material';
 import { MatExpansionModule } from '@angular/material'; // FOR THE ACCORDION - OWNER-DETAIL/ACCOUNT
 import{ MatDatepickerModule, MatNativeDateModule } from '@angular/material'
+import { MatDialogModule} from '@angular/material';
 
 @NgModule({
   declarations: [],
   imports: [
+    MatDialogModule,
     MatDatepickerModule, 
     MatNativeDateModule,
     MatExpansionModule,
@@ -44,6 +46,7 @@ import{ MatDatepickerModule, MatNativeDateModule } from '@angular/material'
     MatToolbarModule
   ],
   exports: [
+    MatDialogModule,
     MatDatepickerModule, 
     MatNativeDateModule,
     MatExpansionModule,
