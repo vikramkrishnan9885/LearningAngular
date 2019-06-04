@@ -16,11 +16,13 @@ import { MatProgressBarModule } from '@angular/material';
 import { MatCheckboxModule, MatProgressSpinnerModule } from '@angular/material';
 import { MatCardModule, MatSelectModule } from '@angular/material';
 import { MatExpansionModule } from '@angular/material'; // FOR THE ACCORDION - OWNER-DETAIL/ACCOUNT
-
+import{ MatDatepickerModule, MatNativeDateModule } from '@angular/material'
 
 @NgModule({
   declarations: [],
   imports: [
+    MatDatepickerModule, 
+    MatNativeDateModule,
     MatExpansionModule,
     MatSelectModule,
     MatCardModule,
@@ -42,6 +44,8 @@ import { MatExpansionModule } from '@angular/material'; // FOR THE ACCORDION - O
     MatToolbarModule
   ],
   exports: [
+    MatDatepickerModule, 
+    MatNativeDateModule,
     MatExpansionModule,
     MatSelectModule,
     MatCardModule,
