@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 
 import { StarShip } from "../../models/star-ship.model";
 import * as fromRoot from "src/app/store/reducers";
-import { LoadShipss } from "../store/actions/ships.actions";
+import { LoadShips } from "../store/actions/ships.actions";
 
 @Component({
   selector: 'app-ship-list',
@@ -25,7 +25,7 @@ export class ShipListComponent implements OnInit {
     this.starships$ = this.store.select(fromStore.getAllShips);
     this.user$ = this.store.select(fromRoot.getFriendlyName);
  
-    this.store.dispatch(new LoadShipss());
+    this.store.dispatch(new LoadShips());
   }
 
 }

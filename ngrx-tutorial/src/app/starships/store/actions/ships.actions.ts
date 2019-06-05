@@ -3,19 +3,18 @@ import { StarShip } from './../../../models/star-ship.model';
 
 
 export enum ShipsActionTypes {
-  LoadShipss = '[Ships] Load Shipss',
+  LoadShips = '[Ships] Load Ships',
   SetShips = '[Ships] Set Ships'
   
 }
 
-export class LoadShipss implements Action {
-  readonly type = ShipsActionTypes.LoadShipss;
+export class LoadShips implements Action {
+  readonly type = ShipsActionTypes.LoadShips;
 }
 
 export class SetShips implements Action {
   readonly type = ShipsActionTypes.SetShips;
-
-  constructor(public payload: StarShip[]) {}
+  constructor(public payload: StarShip[]=null) {}
 }
 
-export type ShipsActions = LoadShipss | SetShips;
+export type ShipsActions = LoadShips | SetShips;

@@ -14,7 +14,7 @@ import { switchMap, map } from "rxjs/operators";
 export class ShipsEffects {
   @Effect()
   loadShips$ = this.actions$.pipe(
-    ofType(ShipsActionTypes.LoadShipss),
+    ofType(ShipsActionTypes.LoadShips),
     switchMap(() => {
       return this.http.get<any>(`https://swapi.co/api/starships`).pipe(
         map(response => {

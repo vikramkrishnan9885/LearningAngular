@@ -1,5 +1,5 @@
 
-import { ShipsActions, ShipsActionTypes ,SetShips } from '../actions/ships.actions';
+import { ShipsActions, ShipsActionTypes ,SetShips, LoadShips } from '../actions/ships.actions';
 
 export interface State {
   allShips: any[];
@@ -12,8 +12,8 @@ export const initialState: State = {
 export function reducer(state = initialState, action: ShipsActions): State {
   switch (action.type) {
 
-    case ShipsActionTypes.LoadShipss:
-      return state;
+    case ShipsActionTypes.LoadShips:
+      return handleSetShips(state, action);
 
     default:
       return state;

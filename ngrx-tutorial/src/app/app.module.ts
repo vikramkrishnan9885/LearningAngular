@@ -12,6 +12,13 @@ import { AppEffects } from './store/effects/app.effects';
 import { AuthEffects } from './store/effects/auth.effects';
 import { WelcomeComponent } from './welcome/welcome.component';
 
+// ADDED THIS DIRECTLY FROM REPO. DIG DEEPER
+import { HttpClientModule } from "@angular/common/http";
+import {
+  StoreRouterConnectingModule,
+  RouterStateSerializer
+} from "@ngrx/router-store";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +29,10 @@ import { WelcomeComponent } from './welcome/welcome.component';
     AppRoutingModule,
     StoreModule.forRoot(reducers /*, { metaReducers }*/),
     !environment.production ? StoreDevtoolsModule.instrument() : [],
-    EffectsModule.forRoot([AppEffects, AuthEffects])
+    EffectsModule.forRoot([AppEffects, AuthEffects]),
+    //
+    HttpClientModule,
+    StoreRouterConnectingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

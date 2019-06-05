@@ -6,12 +6,18 @@ import { EffectsModule } from '@ngrx/effects';
 import { ShipsEffects } from './store/effects/ships.effects';
 import { ShipListComponent } from './ship-list/ship-list.component';
 
+// BUGFIXES DIRECTLY FROM GITHUB OF TUTORIAL
+import { HttpClientModule } from '@angular/common/http';
+import { StarshipRoutingModule } from './starships-routing.module';
+
 @NgModule({
   declarations: [ShipListComponent],
   imports: [
     CommonModule,
     StoreModule.forFeature('ships', fromShips.reducer),
-    EffectsModule.forFeature([ShipsEffects])
+    EffectsModule.forFeature([ShipsEffects]),
+    HttpClientModule,
+    StarshipRoutingModule,
   ]
 })
 export class StarshipsModule { }
