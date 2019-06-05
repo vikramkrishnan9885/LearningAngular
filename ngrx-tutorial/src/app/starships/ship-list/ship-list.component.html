@@ -1,0 +1,25 @@
+<h1>{{user$ | async}}</h1>
+<hr/>
+<h2>First 10 Starships from API</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Model</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let ship of starships$ | async">
+      <td style="width:30%">{{ship.name}}</td>
+      <td style="width:60%">{{ship.model}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--
+  The user$ variable is there to use the root part of state that 
+  we previously had retrieved (Luke Skywalker)
+  
+  The starships$ variable holds the results of state so initially 
+  it will be empty and then it will load once state changes
+-->
