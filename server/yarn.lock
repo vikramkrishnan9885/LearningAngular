@@ -648,9 +648,9 @@ json-schema@0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.2.3.tgz#b480c892e59a2f05954ce727bd3f2a4e882f9e13"
 
-json-server@^0.12.1:
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/json-server/-/json-server-0.12.1.tgz#a52cf5ef1a5feb648c3f8cc022364d0050d29c74"
+json-server@^0.12.2:
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/json-server/-/json-server-0.12.2.tgz#2ae4de8de432e279f3374cc9f3882e49e29b35a0"
   dependencies:
     body-parser "^1.18.2"
     chalk "^2.3.0"
@@ -668,7 +668,7 @@ json-server@^0.12.1:
     morgan "^1.9.0"
     nanoid "^1.0.1"
     object-assign "^4.0.1"
-    please-upgrade-node "^3.0.1"
+    please-upgrade-node "^3.0.2"
     pluralize "^7.0.0"
     request "^2.83.0"
     server-destroy "^1.0.1"
@@ -712,8 +712,8 @@ lodash-id@^0.14.0:
   resolved "https://registry.yarnpkg.com/lodash-id/-/lodash-id-0.14.0.tgz#baf48934e543a1b5d6346f8c84698b1a8c803896"
 
 lodash@4, lodash@^4.11.2:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
 
 lowdb@^0.15.0:
   version "0.15.5"
@@ -910,9 +910,11 @@ pify@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
 
-please-upgrade-node@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/please-upgrade-node/-/please-upgrade-node-3.0.1.tgz#0a681f2c18915e5433a5ca2cd94e0b8206a782db"
+please-upgrade-node@^3.0.2:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/please-upgrade-node/-/please-upgrade-node-3.2.0.tgz#aeddd3f994c933e4ad98b99d9a556efa0e2fe942"
+  dependencies:
+    semver-compare "^1.0.0"
 
 pluralize@^7.0.0:
   version "7.0.0"
@@ -1014,6 +1016,10 @@ require-main-filename@^1.0.1:
 safe-buffer@5.1.1, safe-buffer@^5.0.1, safe-buffer@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
+
+semver-compare@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
 
 semver-diff@^2.0.0:
   version "2.1.0"
